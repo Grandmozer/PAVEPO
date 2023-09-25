@@ -4,8 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAVEPO</title>
+
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Varela+Round&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script defer src="/js/swiper.js"></script>
 </head>
 <body>
-    
+    <main>
+        <div class="hero">
+            <div class="el-1 el"></div>
+            <div class="hero-text">
+                <h1 class="hero-title">PAVEPO</h1>
+                <p class="hero-p">Ключ к трансформации бизнеса для достижения новых вершин
+                </p>
+            </div>
+            <div class="el-2 el"></div>
+        </div>
+        <div class="el-3 el"></div>
+        <div class="purpose">
+            <p class="txt ta-left">
+                Наша цель - помочь вашему бизнесу быть максимально эффективным. Мы разрабатываем индивидуальные стратегии, учитывая уникальные особенности компании. Подход основан на результате и измеримых достижениях.
+            </p>
+            <p class="txt ta-right">
+                Команда экспертов в управлении бизнес-процессами обладает широким опытом и знаниями в анализе и оптимизации. Мы стремимся к долгосрочному партнерству и успешному развитию. Свяжитесь с нами, чтобы узнать, как оптимизировать свои процессы и достичь новых вершин!
+            </p>
+            <button class="btn btn-sm" type="button">
+                <a href="">Смотреть еще</a>
+            </button>
+        </div>
+        <div class="services">
+            <h2 class="title">УСЛУГИ</h2>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">Аудит бизнес-процессов</div>
+                <div class="swiper-slide">Разработка операционных процедур</div>
+                <div class="swiper-slide">Автоматизация процессов</div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+        </div>
+        <div class="sending-form">
+            <h2 class="title">ОСТАВИТЬ ЗАЯВКУ</h2>
+
+            <form
+            id="form"
+            method="post"
+            class="sending-form" 
+            action="">
+                <label class="label" for="name">ФИО<span class="danger-txt">*</span></label>
+                <input
+                    class="input-form _req"
+                    type="text" 
+                    name="name"
+                    id="name"
+                    data-validate-field="name">
+
+                <label class="label" for="email">Почта<span class="danger-txt">*</span></label>
+                <input 
+                    class="input-form _req _email"
+                    type="email"
+                    name="email"
+                    id="email"
+                    data-validate-field="mail">
+                    
+                <label class="label" for="url">Cайт</label>
+                <input 
+                    class="input-form _req _email"
+                    autocomplete="off"
+                    type="url"
+                    name="url"
+                    id="url">
+
+                <label class="label" for="phone">Телефон</label>
+                    <input                           
+                    class="input-form"
+                    autocomplete="off"
+                    type="phone"                         
+                    name="phone"
+                    id="phone"                        
+                    data-validate-field="tel"
+                    data-validate-rules="phone">
+
+                <label for="description about you">Расскажите о компании</label>
+                <input
+                    class="input-form"
+                    autocomplete="off"
+                    type="text"
+                    name="description-about-user"
+                    id="desc-about-user">
+
+                <button class="btn large-btn" type="submit">Отправить</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="info@pavepo.com" class="mail-footer">info@pavepo.com</a>
+        <h2 class="footer-title">PAVEPO</h2>
+        <div class="copyright">
+            <a href="">Политика конфиденциальности</a>
+            <a href="">Договор оферты</a>
+        </div>
+    </footer>
 </body>
 </html>
