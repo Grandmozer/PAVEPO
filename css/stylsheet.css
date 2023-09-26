@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'TT Firs Neue';
+	src: url('TTFirsNeue-Regular.woff'),
+		url('TTFirsNeue-Regular.woff') format('woff'),
+		url('TTFirsNeue-Regular.woff2') format('woff2');
+		src: url("../fonts/TTFirsNeue-Regular.woff") format("woff"), 
+        url("../fonts/TTFirsNeue-Regular.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'TT Firs Neue';
+	src: url('TTFirsNeue-Medium.woff'),
+		url('TTFirsNeue-Medium.woff') format('woff'),
+		url('TTFirsNeue-Medium.woff2') format('woff2');
+		src: url("../fonts/TTFirsNeue-Medium.woff") format("woff"), 
+        url("../fonts/TTFirsNeue-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('Gilroy-Medium.woff'),
+		url('Gilroy-Medium.woff') format('woff'),
+		url('Gilroy-Medium.woff2') format('woff2');
+		src: url("../fonts/Gilroy-Medium.woff") format("woff"), 
+        url("../fonts/Gilroy-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}

@@ -1,6 +1,8 @@
 :root{
-    --background-color: rgba(10, 9, 11, 0.49);/*#140818*/
+    --background-color: rgba(10, 9, 11, 0.49);
+    /* --background-color: #140818; */
     --white:#fff;
+    --white-txt: #F4F4F4;
     --oarange:#FF7C38;
     --stroke_color:rgba(255, 124, 56, 1);
     --light-purple:#FF57FF;
@@ -8,7 +10,8 @@
     --text-gradient-h1: linear-gradient(91deg, #FF7C38 21.27%, #751A69 79.5%);
     --text-gradient-p: linear-gradient(270deg, #751A69 14.48%, #FF7C38 92.99%);
     --text-gradient-h2:var(--text-gradient-h1, linear-gradient(92deg, #FF7C38 0.66%, #562267 99.13%));
-
+    --background-btn:rgba(255, 87, 255, 0.08);
+    --box-shadow-btn: rgba(176, 102, 255, 0.15);
 }
 body {
     font-family: 'Inter', sans-serif;
@@ -17,7 +20,37 @@ body {
 h1{
     margin: 0;
 }
-
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.ta-left{
+    text-align: left;
+}
+.ta-right{
+    text-align: right;
+}
+.btn{
+    border-radius: 52px;
+    border: 2px solid var(--stroke_color, --oarange);
+    background: var(--background-btn);
+    box-shadow: 0px 0px 22px 0px var(--box-shadow-btn);
+    color: var(--white);
+    font-family: 'TT Firs Neue';
+    font-size: 16.286px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 /* HERO */
 
 .hero-text{
@@ -60,15 +93,122 @@ h1{
 .el{
     position: absolute;
 }
-.el-1{
-    top:252px ;
-    left: -599px;
+/* .el-1{
+    width: 2560px;    
+    height: 100px;
+    background-image: url(/public/images/ellipse-title-left.svg);
+    background-repeat: no-repeat;
+
 }
 .el-2{
+    background-image: url(/public/images/ellipse-animate-.svg);
+    background-repeat: no-repeat;
+} */
+/* .el3{
     top:252px ;
     left: -599px;
+} */
+
+/* purpose */
+
+.purpose{
+    padding-top: 300px;
+    padding-left: 126px;
+    padding-right: 153px;
+    padding-bottom: 88px; 
+    display: grid;
+    background-image:url(/public/images/ellipse-backgraund.svg);
+    background-repeat:no-repeat;
+    background-position: 47% 63%;
+}
+.purpose .ta-left{
+    width: 1197px;
+    padding-top: 62px;
+}
+.purpose .ta-right{
+    width: 1104px;
+    padding-top: 143px;
+    justify-self: end;
+}
+.txt{
+    color: var(--white-txt);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110.5%; /* 38.675px */
+}
+.btn-sm{
+    padding: 17px 69px 17px 68px;
+    margin-top: 149px;
+    margin-right: -29px;
+    justify-self: center;
+}
+
+/* services */
+
+.services{
+    padding-left: 111px;
+}
+.title{
+    font-family: "Manrope";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 122.94px;
+    text-transform: uppercase;
+    color: var(--oarange);
+    background: var(--text-gradient-h1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.services-title{
+    width: 408px;
 }
 .swiper {
-    width: 600px;
-    height: 300px;
+    width: 100%;
+    height: 163px;
+    padding-top: 35px;
+}
+.swiper-wrapper{
+    padding-left: 82px;
+}
+.swiper-button-prev{
+    background-image: url(/public/images/prev.svg);
+}
+.swiper-button-next{
+    background-image: url(/public/images/next.svg);
+}
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: var(--swiper-navigation-top-offset,50%);
+    width: 62px;
+    height: 62px;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:transparent;
+}
+.swiper-slide{
+    display: flex;
+width: 405px !important;
+height: 50px;
+padding: 55px 33px;
+margin-right: 60px !important;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 30px;
+border: 1px solid #FF57FF;
+background: var(--block-color, linear-gradient(178deg, #562267 -165.61%, rgba(20, 8, 24, 0.00) 126.22%));
+color: #FFF;
+text-align: center;
+font-family: 'Varta';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
