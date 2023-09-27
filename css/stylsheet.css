@@ -5,7 +5,7 @@
 		url('TTFirsNeue-Regular.woff2') format('woff2');
 		src: url("../fonts/TTFirsNeue-Regular.woff") format("woff"), 
         url("../fonts/TTFirsNeue-Regular.woff2") format("woff2");
-	font-weight: 500;
+	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
@@ -28,4 +28,25 @@
         url("../fonts/Gilroy-Medium.woff2") format("woff2");
 	font-weight: 500;
 	font-style: normal;
+}
+@font-face {
+	font-family: 'Varta';
+	src: url('Varta-Bold.woff'),
+		url('Varta-Bold.woff') format('woff'),
+		url('Varta-Bold.woff2') format('woff2');
+		src: url("../fonts/Varta-Bold.woff") format("woff"), 
+        url("../fonts/Varta-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Varta';
+    src: url('Varta-Bold.eot');
+    src: local('Varta Bold'), local('Varta-Bold'),
+        url('Varta-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Varta-Bold.woff2') format('woff2'),
+        url('Varta-Bold.woff') format('woff'),
+        url('Varta-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
