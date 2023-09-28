@@ -14,10 +14,7 @@
     --box-shadow-btn: rgba(176, 102, 255, 0.15);
 }
 body {
-    /* font-family: 'Inter', sans-serif; */
-    font-family:'Varta';
-    
-
+    font-family: 'Inter', sans-serif;
     background-color: var(--background-color);
 }
 h1{
@@ -209,9 +206,9 @@ border: 1px solid #FF57FF;
 background: var(--block-color, linear-gradient(178deg, #562267 -165.61%, rgba(20, 8, 24, 0.00) 126.22%));
 color: #FFF;
 text-align: center;
-/* font-family:'Varta'; */
+font-family:'Varta';
 font-size: 24px;
-/* font-style: normal; */
+font-style: normal;
 font-weight: 700;
-/* line-height: normal; */
+line-height: normal;
 }
