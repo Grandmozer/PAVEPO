@@ -119,10 +119,16 @@ a {
     right: -848px;
 }
 .el-4{
-    height: 940px;
+    width: 410px;
+    height: 291px;
     top: 2261px;
-    right: -943px;
+    right: 200px;
     overflow: hidden;
+    background-image: url(/public/images/Ellipse\ 1489.png);
+    background-repeat: no-repeat;
+    background-size:100% ;
+    background-position: start top;
+
 }
 /* purpose */
 
