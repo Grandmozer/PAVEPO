@@ -102,34 +102,46 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+svg{
+    fill:inherit;
+stroke:inherit;
+stroke-width:inherit;
+}
 .el{
     position: absolute;
+    transition: all .8s ease;
 }
 .el-1{
     top: -775px;
     left: -920px;
 }
+/* .el-1{
+    width: 600px;
+    height: 600px;
+    top: 0px;
+  left: 0px;
+} */
 .el-2{
- 
     top: -261px;
     left: -1203px;
 } 
 .el-3{
     top: -179px;
-    right: -848px;
+    right: 0px;
+    width: 963px;
+    overflow: hidden;
 }
 .el-4{
-    width: 410px;
-    height: 291px;
+    width: 789px;
+    height: 941px;
     top: 2261px;
-    right: 200px;
+    right: 0px;
     overflow: hidden;
-    background-image: url(/public/images/Ellipse\ 1489.png);
-    background-repeat: no-repeat;
-    background-size:100% ;
-    background-position: start top;
-
 }
+.el-1:hover{
+    fill:red;
+}
+
 /* purpose */
 
 .purpose{

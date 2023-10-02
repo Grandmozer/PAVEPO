@@ -1,0 +1,49 @@
+
+// svg {
+//     width: 100%;
+//     max-width: 600px;
+//     max-height: 200px;
+//     height: auto;
+//     border: 1px solid #555;
+//     box-sizing: border-box;
+// }
+
+$color-time: 12s;
+$step: $color-time/4;
+
+stop {
+    animation: colors $color-time infinite;
+}
+
+// .stop-1 {
+    
+// }
+.stop-2 {
+    animation-delay: -$step;
+}
+.stop-3 {
+    // color: transparent !important;
+    animation-delay: -$step*2;
+}
+
+@keyframes colors {
+    15% {
+        stop-color: rgb(212, 0, 255);
+    }
+    30% {
+        stop-color: rgb(255, 217, 0);
+    }
+    45% {
+        stop-color: teal;
+    }
+    60% {
+        stop-color: yellowgreen;
+    }
+    75% {
+        stop-color: orangered;
+    }
+    90% {
+        stop-color: purple;
+    }
+}
+
