@@ -104,8 +104,8 @@ a {
 }
 svg{
     fill:inherit;
-stroke:inherit;
-stroke-width:inherit;
+    stroke:inherit;
+    stroke-width:inherit;
 }
 .el{
     position: absolute;
@@ -114,6 +114,12 @@ stroke-width:inherit;
 .el-1{
     top: -775px;
     left: -920px;
+}
+.circle-1{
+    fill:#FF7C38;
+}
+.el-1 :hover{
+    fill:#562267;
 }
 /* .el-1{
     width: 600px;
