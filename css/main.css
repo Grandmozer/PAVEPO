@@ -12,21 +12,9 @@ stop {
 
 @keyframes colors {
   15% {
-    stop-color: rgb(212, 0, 255);
+    stop-color: #751A69;
   }
   30% {
-    stop-color: rgb(255, 217, 0);
-  }
-  45% {
-    stop-color: teal;
-  }
-  60% {
-    stop-color: yellowgreen;
-  }
-  75% {
-    stop-color: orangered;
-  }
-  90% {
-    stop-color: purple;
+    stop-color: #FF7C38;
   }
 }/*# sourceMappingURL=main.css.map */

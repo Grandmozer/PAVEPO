@@ -109,17 +109,16 @@ svg{
 }
 .el{
     position: absolute;
-    transition: all .8s ease;
+    z-index: -5;
+    /* transition: all .8s ease; */
 }
 .el-1{
-    top: -775px;
-    left: -920px;
-}
-.circle-1{
-    fill:#FF7C38;
-}
-.el-1 :hover{
-    fill:#562267;
+    top: -418px;
+    left: -792px;
+    width: 2000px;
+    height: 2000px;
+    overflow: hidden;
+
 }
 /* .el-1{
     width: 600px;
@@ -128,11 +127,15 @@ svg{
   left: 0px;
 } */
 .el-2{
-    top: -261px;
-    left: -1203px;
+    top: -112px;
+    left: -983px;
+    width: 2000px;
+    height: 1600px;
+    overflow: hidden;
+
 } 
 .el-3{
-    top: -179px;
+    top: -675px;
     right: 0px;
     width: 963px;
     overflow: hidden;
