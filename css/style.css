@@ -383,3 +383,102 @@ svg{
 .copyright a:not(:last-child) {
     padding-bottom: 11px;
 }
+
+/* PAGE 2 */
+
+
+/* Header */
+
+.header{
+    padding-top: 59px;
+    margin-left: -77px;
+    display: flex;
+    justify-content: center;
+}
+
+.head-logo{
+    text-align: center;
+    font-family: 'Varela Round';
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.615%; /* 179.423px */
+    letter-spacing: -4.5px;
+    background: var(--text-gradient-h1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* team */
+
+.team{
+    padding-top: 256px;
+    padding-left: 127px;
+    padding-bottom: 238px;
+
+}
+.team-title{
+    width: 504px;
+}
+.team-t{
+    padding-bottom: 34px;
+}
+.team-txt{
+    width: 1689px;
+    font-size: 32px;
+    line-height: 145%;
+    letter-spacing: 0.48px;
+}
+
+/* values */
+
+.values{
+    display: grid;
+    padding-bottom: 200px;
+    padding-left: 127px;
+}
+.values-title{
+    padding-right: 106px;
+    justify-self: flex-end;
+}
+.values-swiper{
+    padding-top: 78px;
+    padding-left: 0px;
+    height: 434px;
+}
+.values-slide{
+    height: 434px;
+    height: 189px;
+    padding-left: 0px;
+    border: none;
+    background: transparent;
+    flex-direction: column;
+}
+.swiper-title{
+    padding-bottom: 0px;
+    margin-left: -105px;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114.8%; /* 52.808px */
+    letter-spacing: 0.69px;
+}
+.swiper-txt{
+    width: 490px;
+    color: #EEE;
+    font-family: 'TT Firs Neue',sans-serif;
+    font-size: 32.05px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%; /* 46.472px */
+    letter-spacing: 0.481px;
+}
+.swiper-txt:nth-child(1){
+    width: 427.329px !important;
+}
+.card-number{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
