@@ -19,6 +19,7 @@
     --swiper-num:#562267;
 }
 body {
+    min-width: 1920px;
     font-family: 'Inter', sans-serif;
     background-color: var(--background-color);
 }
@@ -114,42 +115,52 @@ svg{
     /* transition: all .8s ease; */
 }
 .el-1{
-    top: -418px;
-    left: -792px;
     width: 2000px;
     height: 2000px;
+    top: -418px;
+    left: -792px;
     overflow: hidden;
 
 }
-/* .el-1{
-    width: 600px;
-    height: 600px;
-    top: 0px;
-  left: 0px;
-} */
 .el-2{
-    top: -112px;
-    left: -983px;
     width: 2000px;
     height: 1600px;
+    top: -112px;
+    left: -983px;
     overflow: hidden;
 
 } 
 .el-3{
+    width: 963px;
     top: -675px;
     right: 0px;
-    width: 963px;
+    left: 960px;
     overflow: hidden;
 }
 .el-4{
     width: 789px;
-    height: 941px;
+    height: 656px;
     top: 2261px;
     right: 0px;
     overflow: hidden;
 }
-.el-1:hover{
-    fill:red;
+.el-5{
+    top: -87px;
+    overflow: hidden;
+
+}
+.el-6{
+    top: 65px;
+    right: 0px;
+    left: 950px;
+    overflow: hidden;
+
+}
+.el-7{
+    top: 653px;
+    left: 0px;
+    overflow: hidden;
+
 }
 
 /* purpose */
@@ -328,10 +339,15 @@ svg{
 .large-btn{
     width: 470.876px;
     height: 75px;
-    margin-top: 153px;
-    margin-right: 120px;
-    position: absolute;
-    right: 0;
+    margin-left: 696px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* margin-top: 153px;
+    margin-right: 120px; */
+    /* position: absolute;
+    right: 0; */
 }
 .footer{
     padding-bottom: 19px;
@@ -438,17 +454,17 @@ svg{
     height: 822px;
     display: grid;
     /* padding-bottom: 200px; */
-    padding-left: 127px;
+    padding-left: 32px;
 }
 .values-title{
     padding-right: 106px;
     justify-self: flex-end;
 }
 .values-swiper{
+    width: 1700px;
+    height: 822px;
     padding-top: 78px;
     padding-left: 0px;
-
-    height: 822px;
 }
 .values-slide{
     height: 434px;
@@ -517,6 +533,7 @@ svg{
 }
 .card-number-l{
     top: -80px;
+    right: 6px;
 }
 .swiper-title-40{
     font-size: 40px;

@@ -7,6 +7,7 @@
 
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    
 
     <!-- Шрифты -->
     
@@ -22,8 +23,14 @@
     
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script defer src="/js/choices.min.js"></script>
+
     <script defer src="/js/swiper.js"></script>
+    <script defer src="/js/validate.js"></script>
+
 </head>
 <body>
     <main class="container">
@@ -117,7 +124,7 @@
                 Команда экспертов в управлении бизнес-процессами обладает широким опытом и знаниями в анализе и оптимизации. Мы стремимся к долгосрочному партнерству и успешному развитию. Свяжитесь с нами, чтобы узнать, как оптимизировать свои процессы и достичь новых вершин!
             </p>
             <button class="btn btn-sm" type="button">
-                <a href="">Смотреть еще</a>
+                <a href="https://pavepo-2.netlify.app/">Смотреть еще</a>
             </button>
         </div>
         <div class="services">
@@ -171,7 +178,7 @@
                 <div class="input-block">
                     <label class="label" for="url">Cайт</label>
                     <input 
-                        class="input-form _req _email"
+                        class="input-form"
                         autocomplete="off"
                         type="url"
                         name="url"
@@ -185,9 +192,7 @@
                         autocomplete="off"
                         type="phone"                         
                         name="phone"
-                        id="phone"                        
-                        data-validate-field="tel"
-                        data-validate-rules="phone">
+                        id="phone">
                 </div>
 
                 <div class="input-block">
@@ -199,7 +204,7 @@
                         name="description-about-user"
                         id="desc-about-user">
                 </div>
-                <button class="btn large-btn" type="submit">Отправить</button>
+                <button class="btn large-btn" type="submit" id="btn">Отправить</button>
             </form>
         </div>
     </main>
