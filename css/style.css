@@ -16,6 +16,7 @@
     --swiper-slide: linear-gradient(178deg, #562267 -165.61%, rgba(20, 8, 24, 0.00) 126.22%);
     --copyright:#C9C9C9;
     --footer-h2:linear-gradient(91deg, #FF7C38 21.27%, #751A69 79.5%);
+    --swiper-num:#562267;
 }
 body {
     font-family: 'Inter', sans-serif;
@@ -434,8 +435,9 @@ svg{
 /* values */
 
 .values{
+    height: 822px;
     display: grid;
-    padding-bottom: 200px;
+    /* padding-bottom: 200px; */
     padding-left: 127px;
 }
 .values-title{
@@ -445,19 +447,22 @@ svg{
 .values-swiper{
     padding-top: 78px;
     padding-left: 0px;
-    height: 434px;
+
+    height: 822px;
 }
 .values-slide{
     height: 434px;
     height: 189px;
+    padding-top: 52px;
     padding-left: 0px;
     border: none;
     background: transparent;
     flex-direction: column;
 }
 .swiper-title{
-    padding-bottom: 0px;
-    margin-left: -105px;
+    padding-bottom: 58px;
+    margin-top: -136px;
+    margin-left: 21px;
     font-size: 46px;
     font-style: normal;
     font-weight: 700;
@@ -466,6 +471,7 @@ svg{
 }
 .swiper-txt{
     width: 490px;
+    margin-left: 20px;
     color: #EEE;
     font-family: 'TT Firs Neue',sans-serif;
     font-size: 32.05px;
@@ -474,11 +480,54 @@ svg{
     line-height: 145%; /* 46.472px */
     letter-spacing: 0.481px;
 }
-.swiper-txt:nth-child(1){
-    width: 427.329px !important;
-}
 .card-number{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -68px;
+    right: -4px;
+    color: var(--swiper-num);
+    font-family: 'TT Firs Neue',sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 114.8%; /* 34.44px */
+    letter-spacing: 0.45px;
+}
+.card-sm-w{
+    width: 427.329px !important;
+}
+.card-m-w{
+    width: 490px;
+}
+.card-l-w{
+    margin-top: 16px;
+    margin-left: 21px;
+}
+.card-midle-w{
+    padding-right: 81px;
+    margin-left: 134px;
+    margin-top: 70px;
+}
+.card-large-w{
+    width: 461px;
+    margin-left: 91px;
+    margin-top: 11px;
+}
+.card-number-m{
+    top: -140px;
+}
+.card-number-l{
+    top: -80px;
+}
+.swiper-title-40{
+    font-size: 40px;
+    margin-top: -235px;
+}
+.sw-btn-bottom{
+    top: var(--swiper-navigation-top-offset,72%);
+    /* left: 42%;    */
+}
+.sw-btn-bottom-prew{
+    left: 43%;}
+.sw-btn-bottom-next{
+    right: 44%;
 }
