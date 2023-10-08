@@ -1,16 +1,36 @@
-@media(max-width:1460px){
+@media(max-width:1900px){
     .container{
-      padding-left: 50px;
-      padding-right: 50px;
+        max-width: 1900px;
     }
-    .section-about-services{
-    flex-direction: column;
+
+ /* Hero */
+
+ .hero-title{
+    margin-left: -49px;
+    margin-top: 180px;
+
+    font-size: 320px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.615%; /* 415.066px */
+    letter-spacing: 46.845px;
     }
-    .about-services-l{
-      margin-bottom: 32px;
-      background-size: 100%;
+}
+@media(max-width:1600px){
+    .container{
+        max-width: 1600px;
     }
-    .about-services-r{
-      margin-left: 0px;
+
+ /* Hero */
+
+ .hero-title{
+    margin-left: -49px;
+    margin-top: 180px;
+
+    font-size: 250px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119.615%; /* 415.066px */
+    letter-spacing: 46.845px;
     }
-  }
+}
