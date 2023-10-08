@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function(){
         
         if(error === 0){
             // form.classList.add('_sending');
-            let response = await fetch('https://script.google.com/macros/s/AKfycbzOG4l-Eipq38B5tR0ApyVe8npCjDpEKZfl1fHcoalkK3q4HAO7Q9zgrmUxBxAr_2jnkA/exec',{
+            let response = await fetch('https://script.google.com/macros/s/AKfycbzCqX6jdPynMhWl5ICVNSo5RXIwmF1FPospocdUUfKGY_6BQLNtoo4LMoLg_Gic3ciSmA/exec',{
                 method: 'Post',
                 body: formData,
             });

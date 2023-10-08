@@ -19,7 +19,7 @@
     --swiper-num:#562267;
 }
 body {
-    min-width: 1920px;
+    max-width: 1920px;
     font-family: 'Inter', sans-serif;
     background-color: var(--background-color);
 }
@@ -46,6 +46,9 @@ a {
 }
 .container{
     width: 1920px;
+}
+.container-padding{
+    padding-left: 92px;
 }
 .ta-left{
     text-align: left;
@@ -167,13 +170,13 @@ svg{
 
 .purpose{
     padding-top: 300px;
-    padding-left: 126px;
+    /* padding-left: 126px; */
     padding-right: 153px;
     padding-bottom: 88px; 
     display: grid;
     background-image:url(/public/images/ellipse-backgraund.svg);
     background-repeat:no-repeat;
-    background-position: 47% 63%;
+    background-position: 50% 63%;;
 }
 .purpose .ta-left{
     width: 1197px;
@@ -200,9 +203,9 @@ svg{
 
 /* services */
 
-.services{
+/* .services{
     padding-left: 111px;
-}
+} */
 .title{
     font-family: "Manrope", sans-serif;
     font-size: 90px;
@@ -283,7 +286,7 @@ svg{
 /* sending-form */
 
 .sending-form{
-    padding-left: 89px;
+    /* padding-left: 89px; */
     padding-top: 123px;
     padding-bottom: 163px;
 }
@@ -351,7 +354,7 @@ svg{
 }
 .footer{
     padding-bottom: 19px;
-    margin-left: 53px;
+    margin-left: 92px;
     margin-right: 116px;
     margin-bottom: 53px;
     display: flex;

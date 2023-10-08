@@ -1,0 +1,16 @@
+@media(max-width:1460px){
+    .container{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .section-about-services{
+    flex-direction: column;
+    }
+    .about-services-l{
+      margin-bottom: 32px;
+      background-size: 100%;
+    }
+    .about-services-r{
+      margin-left: 0px;
+    }
+  }
