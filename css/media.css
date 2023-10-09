@@ -2,25 +2,104 @@
     .container{
         max-width: 1900px;
     }
+    .container-padding{
+        padding-left: 70px;
+    }
 
  /* Hero */
 
- .hero-title{
-    margin-left: -49px;
-    margin-top: 180px;
+    .hero-title{
+        margin-left: -49px;
+        margin-top: 180px;
 
-    font-size: 320px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 119.615%; /* 415.066px */
-    letter-spacing: 46.845px;
+        font-size: 320px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 119.615%; /* 415.066px */
+        letter-spacing: 46.845px;
     }
+/* Swiper */
+    .swiper {
+        width: 90%;
+        height: 163px;
+        padding-top: 35px;
+        margin: 0px;
+    }
+    .swiper-wrapper{
+        margin-left: 100px;
+    }
+    .swiper-slide {
+        width: 350px !important;
+        padding: 50px 25px;
+    }
+    .large-btn {
+        width: 350px;
+        height: 75px;
+        margin-left: 0px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 153px;
+        margin-right: 120px;
+        position: absolute;
+        right: 20%;
+      }
+
+}
+@media(max-width:1850px) {
+    .container{
+        max-width: 1850px;
+    }
+    .swiper-wrapper{
+        margin-left: 76px;
+    }
+}
+@media(max-width:1800px) {
+    .container{
+        max-width: 1800px;
+    }
+    .swiper {
+        width: 100%;
+    }
+    .swiper-wrapper{
+        margin-left: 130px;
+    }
+}
+@media(max-width:1700px){
+    .container{
+        max-width: 1700px;
+    }
+    .swiper-wrapper{
+        margin-left: 210px;
+    }
+    .swiper-slide{
+        font-size: 18px;
+    }
+    .large-btn{
+        right: 11%;
+    }
+}
+@media(max-width:1650px){
+    .container{
+        max-width: 1650px;
+    }
+     /* swiper */
+     .swiper-wrapper{
+        margin-left: 336px;
+            }
+    .swiper-slide {
+        width: 310px !important;
+        padding: 40px 15px;
+      }
 }
 @media(max-width:1600px){
     .container{
         max-width: 1600px;
     }
-
+    .txt {
+        font-size: 30px;
+    }
  /* Hero */
 
  .hero-title{
@@ -33,4 +112,16 @@
     line-height: 119.615%; /* 415.066px */
     letter-spacing: 46.845px;
     }
+    .hero-p{
+        width: 626px;
+      font-size: 35px;
+    }
+    /* swiper */
+    .swiper-wrapper{
+        margin-left: 438px;
+    }
+    .swiper-slide {
+        width: 310px !important;
+        padding: 40px 15px;
+      }
 }

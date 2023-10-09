@@ -46,6 +46,7 @@ a {
 }
 .container{
     width: 1920px;
+    /* overflow: hidden; */
 }
 .container-padding{
     padding-left: 92px;
@@ -141,9 +142,10 @@ svg{
     width: 963px;
     /* top: -675px; */
     /* right: 0px; */
+    /* left: 960px; */
     top: -48%;
     right: 0%;
-    left: 960px;
+
     overflow: hidden;
 }
 .el-4{
@@ -236,7 +238,10 @@ svg{
     padding-top: 35px;
 }
 .swiper-wrapper{
-    padding-left: 82px;
+    margin-left: 82px;
+    /* max-width: 1050px; */
+    width: 100%;
+    /* overflow: hidden; */
 }
 .swiper-button-prev{
     margin-left: -10px;
@@ -289,7 +294,13 @@ svg{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+    opacity: 0;
 }
+
+.swiper-slide-prev,.swiper-slide-active,.swiper-slide-next {
+    opacity: 1;
+  }
 
 /* sending-form */
 

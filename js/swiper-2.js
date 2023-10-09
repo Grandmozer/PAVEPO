@@ -1,9 +1,9 @@
-const swiperSmall = document.getElementById('swiper-mini');
+const swiperMidle = document.getElementById('swiper-midle');
 
-const swiper = new Swiper(swiperSmall, {
+const swiper = new Swiper(swiperMidle, {
 // Optional parameters
 slidesPerView: 3,   
-spaceBetween:-390,
+spaceBetween: 40,
 direction: 'horizontal',
 loop: true,
 // spaceBetween: 30,        
@@ -13,29 +13,13 @@ centeredSlides: true,
 // watchSlidesVisibility: true,
 breakpoints: {
  
+    1920: {
+        slidesPerView:3,
+        // spaceBetween: 30,
+    },
     480: {
         slidesPerView:1,
         // spaceBetween: 10,
-    },
-    1600:{
-        slidesPerView:2,
-        spaceBetween: -700,
-    },
-    1700:{
-        slidesPerView:3,
-        spaceBetween: -290,
-    },
-    1800:{
-        slidesPerView:3,
-        spaceBetween: -240,
-    },
-    1900: {
-        slidesPerView:3,
-        spaceBetween: -210,
-    },
-    1920:{
-        slidesPerView:3,
-        spaceBetween: -250,
     }
 },
 
@@ -56,4 +40,3 @@ scrollbar: {
     el: '.swiper-scrollbar',
 },
 });
-
