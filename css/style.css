@@ -158,22 +158,26 @@ svg{
     overflow: hidden;
 }
 .el-5{
-    top: -87px;
+    /* top: -87px; */
+    top: -8%;
     overflow: hidden;
 
 }
 .el-6{
-    top: 65px;
+    /* top: 65px;
     right: 0px;
-    left: 950px;
+    left: 950px; */
+    top: 10%;
+    right: 0%;
     overflow: hidden;
 
 }
 .el-7{
-    top: 653px;
-    left: 0px;
+    /* top: 653px;
+    left: 0px; */
+    top: 49%;
+    left: 0%;
     overflow: hidden;
-
 }
 
 /* purpose */
@@ -454,7 +458,7 @@ svg{
 
 .team{
     padding-top: 256px;
-    padding-left: 127px;
+    /* padding-left: 127px; */
     padding-bottom: 238px;
 
 }
