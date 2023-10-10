@@ -17,6 +17,13 @@ breakpoints: {
         slidesPerView:1,
         // spaceBetween: 10,
     },
+    900:{
+        slidesPerView:2,
+
+    },
+    1200:{
+        slidesPerView:2,
+    },
     1600:{
         slidesPerView:2,
         spaceBetween: -700,

@@ -117,11 +117,575 @@
       font-size: 35px;
     }
     /* swiper */
+    .swiper {
+        width: 90%;
+    }
     .swiper-wrapper{
         margin-left: 438px;
     }
     .swiper-slide {
         width: 310px !important;
         padding: 40px 15px;
+    }
+    .large-btn {
+        right: 2%;
+      }
+}
+@media(max-width:1550px)  {
+    .container{
+        max-width: 1550px;
+    }
+    .el-4{
+        height: 799px;
+    }
+}
+@media(max-width:1500px) {
+    .container{
+        max-width: 1500px;
+    }
+    .el-1 {
+        width: 1500px;
+      }
+    .el-2 {
+    width: 1500px;
+    top: -5%;
+    left: -45%;
+    }
+    .el-3{
+        width: 775px;
+    }
+}
+@media(max-width:1450px) {
+    .container{
+        max-width: 1450px;
+    }
+    .purpose {
+        padding-top: 200px;
+        padding-left: 126px;
+        padding-right: 153px;
+        padding-bottom: 60px;
+        background-size: 40%;
+        background-position: 50% 63%;
+      }
+      .purpose .ta-left {
+        width: 900px;
+      }
+      .purpose .ta-right {
+        width: 804px;
+       
+      }
+}
+@media(max-width:1400px) {
+    .container{
+        max-width: 1400px;
+    }
+    .hero-title{
+        font-size: 220px;
+    }
+    .purpose {
+        padding-top: 200px;
+        padding-left: 70px;
+        padding-right: 50px;
+        padding-bottom: 60px;
+        background-size: 40%;
+        background-position: 50% 63%;
+      }
+    .large-btn {
+        margin-top: 325px;
+        right: 27%;
+    }
+    .footer{
+        margin-left: 70px;
+    }
+    .mail-footer {
+        font-size: 18px;
+    }
+    .copyright {
+        font-size: 14px;
+    }
+    .footer-title {
+        font-size: 90px;
+      } 
+      .el-1 {
+        width: 1300px;
+      }
+      .el-2{
+        width: 1296px;
+        top:0%
+      }
+}
+@media(max-width:1350px) {
+    .container{
+        max-width: 1350px;
+    }
+}
+@media(max-width:1300px) {
+    .container{
+        max-width: 1300px;
+    }
+    .btn-sm {
+        margin-right: 0px;
+      }
+    .large-btn{
+        margin-right: 0px;
+    }
+}
+@media(max-width:1250px) {
+    .container{
+        max-width: 1250px;
+    }
+}
+@media(max-width:1200px) {
+    .container{
+        max-width: 1200px;
+    }
+    .txt {
+        font-size: 25px;
+      }
+    .hero-title {
+        font-size: 200px;
+        margin-left: 0px;
+      }
+      .hero-p {
+        width: 400px;
+        font-size: 25px;
+      }
+    .purpose .ta-left {
+        width: 600px;
+      }
+      .purpose .ta-right {
+        padding-top: 43px;
+        width: 604px;
+       
+      }
+}
+@media(max-width:1150px) {
+    .container{
+        max-width: 1150px;
+    }
+    .large-btn{
+        right: 20%;
+    }
+      .el-4 {
+        height: 401px;
+      }
+}
+@media(max-width:1100px) {
+    .container{
+        max-width: 1100px;
+    }
+    .hero-title{
+        margin-top: 131px;
+        font-size: 180px;
+    }
+    .hero-p{
+        margin-right: 114px;
+    }
+    .form {
+        padding-top: 139px;
+    }
+
+}
+@media(max-width:1000px) {
+    .container{
+        max-width: 1000px;
+    }
+    .large-btn {
+        right: 10%;
+      }
+}
+@media(max-width:950px) {
+    .container{
+        max-width: 950px;
+    }
+    .title{
+        font-size: 79px;
+    }
+    .hero-title{
+        font-size: 164px;
+        letter-spacing: 27.8px;
+    }
+    .el-1 {
+        width: 1052px;
+        top: -7%;
+      }
+    .el-2 {
+        width: 1016px;
+        top: 3%;
+        left: -51%;
+    }
+      .el-3{
+        width: 575px;
+        top: -30%;
+      }
+      .purpose{
+        background-size: 50%;
+      }
+      .services-title {
+        width: 327px;
+      }
+      .sending-form .title {
+        width: 755px;
+      }
+      .sending-form{
+        padding-bottom: 208px;
+      }
+      .input-block{
+        padding-bottom: 70px;
+      }
+      .large-btn{
+        margin-top: 697px;
+        right: 50%;
+      }
+    .footer{
+        margin-right: 55px;
+    }
+    .footer-title {
+        font-size: 49px;
+      }
+}
+@media(max-width:900px) {
+    .container{
+        max-width: 900px;
+    }
+    .hero-p {
+        margin-right: 64px;
+      }
+      .hero-title {
+        font-size: 136px;
+      }
+}@media(max-width:850px) {
+    .container{
+        max-width: 850px;
+    }
+    
+}
+@media(max-width:800px) {
+    .container{
+        max-width: 800px;
+    }   
+    .sending-form .title {
+        width: 633px;
+      }
+     .title {
+        font-size: 65px;
+      }
+      .el-1 {
+        width: 683px;
+                top: -7%;
+      }
+      .el-2 {
+        width: 851px;
+      }
+    .footer{
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+    }
+    .mail-footer {
+        padding-left: 0px;
+        order: 1;
+      }
+    .footer-title{
+        padding-left: 8px;  
+    }
+}
+@media(max-width:750px) {
+    .container {
+        max-width: 650px;
+      }
+    .large-btn {
+        right: 39%;
+      }
+      .container-padding{
+          padding-left: 50px;
+      }
+    
+}
+@media(max-width:700px) {
+    .container{
+        max-width: 650px;
+    }
+    .container-padding{
+        padding-left: 40px;
+    }
+    .hero-title {
+        font-size: 112px;
+      }
+      .txt {
+        font-size: 20px;
+      }
+      .purpose {
+        background-size: 50%;
+        padding-right: 0px;
+        margin-right: 50px;
+
+
+      }
+      .btn-sm{
+        margin-top: 62px;
+      }
+      .title {
+        font-size: 48px;
+      }
+      .sending-form .title {
+        width: 640px;   
+      }
+        .services-title {
+            width: 212px;
+          }
+}
+@media(max-width:650px) {
+    .container{
+        max-width: 650px;
+    }
+    
+}
+@media(max-width:600px) {
+    .container{
+        max-width: 550px;
+        overflow: hidden;
+    }
+    .hero-title {
+        margin-top: 84px;
+        margin-left: 20px;
+        font-size: 99px;
+        letter-spacing: 24px;
+      }
+      .purpose{
+        padding-top: 150px;
+        background-size: 83%;
+        background-position: 70% 44%;
+      }
+      .purpose .ta-left {
+        width: 400px;
+      }
+      .purpose .ta-right {
+        padding-top: 43px;
+        width: 500px;
+      }
+      .btn-sm{
+        margin-left: -52px;
+        margin-top: 102px;
+      }
+      .el-3 {
+        width: 206px;
+        top: -30%;
+      }
+      .el-4{
+        height: 855px;
+        top: 163%;
+        right: 0%;
+      }
+      .sending-form{
+        padding-bottom: 150px;
+      }
+      .large-btn {
+        margin: 0px;
+        margin-top: 70px;
+        position: relative;
+        right: 0%;
+        }
+      .footer{
+        margin-left: 50px;
+        margin-right: 50px;
+      } 
+      .purpose .ta-right {
+          padding-top: 43px;
+          width: 450px;
+        }
+}
+@media(max-width:550px) {
+    .container{
+        max-width: 550px;
+    }
+    .form {
+        padding-top: 75px;
+      }
+    .input-block{
+        padding-bottom: 50px;
+    }
+    .label{
+        font-size: 18px;
+    }
+}
+@media(max-width:500px) {
+    .container{
+        max-width: 500px;
+        overflow: hidden;
+    }
+    .title{
+        line-height: 85.9px;
+        }
+    .hero-title{
+        font-size: 79px;
+        letter-spacing: 19px;
+        margin-left: 10px;
+    }
+    .hero-p{
+        margin-right: 50px;
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .el-2 {
+        width: 465px;
+        left: -34%;
+      }
+      .el-3 {
+        width: 206px;
+        top: -3%;
+      }
+    .el-4 {
+        top: 152%;
+      }
+    .purpose{   
+         margin-right: 30px;
+        }
+    .purpose .ta-right {
+        padding-top: 43px;
+        width: 400px;
+      }
+      .sending-form .title {
+        width: 258px;
+      }
+}
+@media(max-width:470px) {
+    .container{
+        max-width: 400px;
+    } 
+    .btn{
+        font-size: 13.3px;
+    }
+    .txt {
+        font-size: 14px;
+      }
+    .el-1 {
+        width: 563px;
+        top: -7%;
+      }
+      .el-4 {
+        top: 133%;
+      }
+    .hero-title{
+        margin-left: 14px;
+        letter-spacing: 11px;
+    }
+    .hero-p {
+        margin-right: 0px;
+    }
+    .purpose{
+        padding-top: 54px;
+        background-position: 100% 38%;
+    }
+    .purpose .ta-left {
+        width: 293px;
+      }
+      .purpose .ta-right {
+        padding-top: 43px;
+        width: 337px;
+      }
+      .btn-sm{
+        margin-left: 26px;
+          }
+          .large-btn{
+            height: 60px;
+          }
+          
+}
+@media(max-width:450px) {
+    .container{
+        max-width: 400px;
+    }
+}
+@media(max-width:400px) {
+    .container{
+        max-width: 360px;
+    }
+    .container-padding {
+        padding-left: 26px;
+      }
+    .hero-title{
+        font-size: 66px;
+    }
+    .hero-p {
+        margin-right: 0px;
+        margin-top: 0px;
+        font-size: 18px;
+      } 
+      .el-1 {
+        width: 488px;
+        top: -7%;
+      }
+      .el-4 {
+        top: 120%;
+      }
+      .purpose .ta-right {
+        padding-top: 43px;
+        width: 304px;
+      }
+      .form {
+        padding-top: 49px;
+    }
+    .input-block {
+        padding-bottom: 27px;
+      }
+      .footer {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+}
+@media(max-width:370px) {
+    .hero-p{
+        margin-right: 12px;
+    }
+    .input-form {
+        width: 309px;
+    }
+    .large-btn {
+        width: 323px;
+    }
+}
+@media(max-width:360px) {
+    .hero-p{
+        margin-right: 12px;
+        width: 300px;
+    }
+    .el-4 {
+        top: 122%;
+      }
+    .input-form {
+        width: 250px;
+    }
+    .large-btn {
+        width: 272px;
+        }
+}
+@media(max-width:350px) {
+    .container{
+        max-width: 300px;
+    }
+    .txt {
+        font-size: 13px;
+      }
+    .hero-title {
+        font-size: 56px;
+      }
+      .hero-p{
+        margin-right: 0px;  
+        font-size: 14px;
+      }
+      .purpose .ta-left {
+        width: 245px;
+      }
+      .purpose .ta-right {
+        padding-top: 26px;
+        width: 228px;
+      }
+      .btn-sm{
+        margin-top: 15px;
+        padding: 17px 45px;
+      }
+      .el-4 {
+        top: 115%;
       }
 }
