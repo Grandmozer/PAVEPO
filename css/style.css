@@ -251,6 +251,7 @@ svg{
     margin-left: -10px;
     margin-top:calc(0px - (var(--swiper-navigation-size)/ 3)) !important;
     background-image: url(/public/images/prev.svg);
+    background-repeat: no-repeat;
 }
 .swiper-button-prev:hover{
     background-image: url(/public/images/next.svg);
@@ -260,6 +261,7 @@ svg{
     margin-right: 99px;
     margin-top:calc(0px - (var(--swiper-navigation-size)/ 3)) !important;
     background-image: url(/public/images/prev.svg);
+    background-repeat: no-repeat;
     transform: rotate(0.5turn);
 }
 .swiper-button-next:hover{
@@ -481,14 +483,14 @@ svg{
     height: 822px;
     display: grid;
     /* padding-bottom: 200px; */
-    padding-left: 32px;
+    padding-left: 0px;
 }
 .values-title{
     padding-right: 106px;
     justify-self: flex-end;
 }
 .values-swiper{
-    width: 1700px;
+    /* width: 1700px; */
     height: 822px;
     padding-top: 78px;
     padding-left: 0px;

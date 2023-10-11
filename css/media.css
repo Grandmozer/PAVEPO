@@ -45,6 +45,9 @@
         position: absolute;
         right: 20%;
       }
+      .values-swiper{
+        height: 686px;
+        }
 
 }
 @media(max-width:1850px) {
@@ -53,6 +56,9 @@
     }
     .swiper-wrapper{
         margin-left: 76px;
+    }
+    .team-txt {
+      width: 1521px;
     }
 }
 @media(max-width:1800px) {
@@ -79,6 +85,26 @@
     .large-btn{
         right: 11%;
     }
+    .swiper-txt{
+      width: 329px;
+      font-size: 24px;
+    }
+    .card-large-w {
+      width: 461px;
+      margin-left: 0px;
+      padding-right: 76px;
+    }
+    .card-small-w{
+      padding-top: 14px;
+    }
+    .swiper-title{
+      font-size: 40px;
+    }
+    .card-midle-w {
+      /* padding-right: 81px; */
+      margin-left: 74px;
+      /* margin-top: 70px; */
+    }
 }
 @media(max-width:1650px){
     .container{
@@ -100,6 +126,12 @@
     .txt {
         font-size: 30px;
     }
+    .team-txt {
+      width: 963px;
+    }
+    .values-swiper{
+      height: 686px;
+      }
  /* Hero */
 
  .hero-title{
@@ -117,9 +149,9 @@
       font-size: 35px;
     }
     /* swiper */
-    .swiper {
+    /* .swiper {
         width: 90%;
-    }
+    } */
     .swiper-wrapper{
         margin-left: 438px;
     }
@@ -130,6 +162,32 @@
     .large-btn {
         right: 2%;
       }
+      .swiper-title {
+        font-size: 34px;
+      }
+      .values-swiper{
+          margin-left:100px;
+          padding-left: 60px;
+      }
+      /* .values-slide{
+        margin: 0px;
+        padding: 0px;
+      } */
+      .card-small-w{
+        padding-top: 7px;
+      }
+      .card-large-w{
+        padding-right: 63px;
+      }
+      .sw-btn-bottom-prew {
+        left: 42%;
+      }
+      .sw-btn-bottom-next {
+        right: 43%;
+      }
+      .txt {
+        font-size: 25px;
+      }
 }
 @media(max-width:1550px)  {
     .container{
@@ -137,6 +195,10 @@
     }
     .el-4{
         height: 799px;
+    }
+    .values-swiper {
+      margin-left: 50px;
+      padding-left: 60px;
     }
 }
 @media(max-width:1500px) {
@@ -153,6 +215,19 @@
     }
     .el-3{
         width: 775px;
+    }
+    .el-6 {
+      width: 867px;
+    }
+    .sw-btn-bottom-prew {
+      left: 41%;
+    }
+    .sw-btn-bottom-next {
+      right: 44%;
+    }
+    .values-swiper {
+      margin-left: 0px;
+      padding-left: 40px;
     }
 }
 @media(max-width:1450px) {
@@ -213,6 +288,24 @@
         width: 1296px;
         top:0%
       }
+      .swiper-slide {
+        width: 280px !important;
+        /* padding: 40px 15px; */
+      }
+      .card-number{
+        top: -84px;
+      }
+      .card-number-m {
+        top: -153px;
+        }
+      .card-number-l {
+        top: -94px;
+        right: -22px;
+      }
+      .card-large-w{
+        margin-left: 40px;
+        margin-right: 123px;
+      }
 }
 @media(max-width:1350px) {
     .container{
@@ -228,6 +321,18 @@
       }
     .large-btn{
         margin-right: 0px;
+    }
+    .sw-btn-bottom-prew {
+      left: 45%;
+    }
+    .sw-btn-bottom-next {
+      right: 36%;
+    }
+    .card-number-l {
+      right: -4px;
+    }
+    .swiper-slide{
+      opacity: 1;
     }
 }
 @media(max-width:1250px) {
@@ -256,7 +361,26 @@
       .purpose .ta-right {
         padding-top: 43px;
         width: 604px;
-       
+      }  
+      .team-txt {
+        width: 715px;
+      }
+      .team {
+        padding-top: 191px;
+        padding-bottom: 207px;
+      }
+      .swiper-slide-active{
+        opacity: 0;
+      }
+      .card-large-w{
+        padding-right: 97px;
+        padding-left: 0px;
+      }
+      .card-number-l {
+        right: 10px;
+      }
+      .values-swiper {
+        padding-left: 0px;
       }
 }
 @media(max-width:1150px) {
@@ -268,18 +392,36 @@
     }
       .el-4 {
         height: 401px;
-      }
-}
-@media(max-width:1100px) {
+    }
+    .sw-btn-bottom-prew {
+      left: 30%;
+    }
+    .sw-btn-bottom-next {
+      right: 50%;
+    }
+    .swiper-slide{
+      opacity: 0;
+    }
+    .swiper-slide-active,.swiper-slide-next {
+      opacity: 1;
+    }
+    .values-swiper {
+      padding-left: 188px;
+      
+      margin-left: -193px;
+    }
+
+  }
+  @media(max-width:1100px) {
     .container{
-        max-width: 1100px;
+      max-width: 1100px;
     }
     .hero-title{
-        margin-top: 131px;
-        font-size: 180px;
+      margin-top: 131px;
+      font-size: 180px;
     }
     .hero-p{
-        margin-right: 114px;
+      margin-right: 114px;
     }
     .form {
         padding-top: 139px;
@@ -292,6 +434,29 @@
     }
     .large-btn {
         right: 10%;
+      }
+      .el-7 {
+        width: 605px;
+      }
+      .sending-form .title {
+        width: 863px;
+      }
+      .sw-btn-bottom-prew {
+        left: 30%;
+      }
+      .sw-btn-bottom-next {
+        right: 50%;
+      }
+      .swiper-slide{
+        opacity: 0;
+      }
+      .swiper-slide-prev,.swiper-slide-active {
+        opacity: 1;
+      }
+      .values-swiper {
+        padding-left: 0px;
+        padding-left: 229px;
+        margin-left: 0px;
       }
 }
 @media(max-width:950px) {
@@ -343,6 +508,9 @@
     .footer-title {
         font-size: 49px;
       }
+      .values-swiper{
+        padding-left: 181px;
+      }
 }
 @media(max-width:900px) {
     .container{
@@ -354,7 +522,20 @@
       .hero-title {
         font-size: 136px;
       }
-}@media(max-width:850px) {
+      .values-swiper {
+        padding-left: 160px;
+      }
+      .card-sm-w {
+        width: 345.3px !important;
+      }
+      .sw-btn-bottom-prew {
+        left: 34%;
+      }
+      .sw-btn-bottom-next {
+        right: 40%;
+      }
+}
+@media(max-width:850px) {
     .container{
         max-width: 850px;
     }
@@ -389,6 +570,19 @@
     .footer-title{
         padding-left: 8px;  
     }
+    .team-txt {
+      width: 475px;
+    }
+    .values-title {
+      padding-right: 0px;
+    }
+    .swiper-slide{
+      opacity: 1;
+    }
+    .values-swiper{
+      padding-left: 187px;
+    }
+   
 }
 @media(max-width:750px) {
     .container {
@@ -419,8 +613,6 @@
         background-size: 50%;
         padding-right: 0px;
         margin-right: 50px;
-
-
       }
       .btn-sm{
         margin-top: 62px;
@@ -433,7 +625,37 @@
       }
         .services-title {
             width: 212px;
-          }
+      }
+      .head-logo {
+        font-size: 120px;
+        letter-spacing: -4.5px;
+        margin-left: 55px
+            }
+      .swiper-title {
+        font-size: 30px;
+      }
+      .values-swiper {
+        height: 689px;
+      }
+      /* .values-slide{
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+      } */
+      .swiper-title-40 {
+        /* font-size: 40px; */
+        margin-top: -193px;
+            }
+      .card-number-l {
+        right: -39px;
+      }
+      .sw-btn-bottom-prew {
+        left: 32%;
+      }
+      .sw-btn-bottom-next {
+        right: 40%;
+      }
 }
 @media(max-width:650px) {
     .container{
@@ -494,6 +716,15 @@
           padding-top: 43px;
           width: 450px;
         }
+        .sw-btn-bottom-prew {
+          left: 31%;
+        }
+        .sw-btn-bottom-next {
+          right: 31%;
+        }
+        .values-swiper {
+            padding-left: 91px;
+        }
 }
 @media(max-width:550px) {
     .container{
@@ -507,6 +738,19 @@
     }
     .label{
         font-size: 18px;
+    }
+    .team-title {
+      width: 270px;
+      margin-right: 40px;
+    }
+    .values {
+      height: 620px;
+    }
+    .el-7 {
+      width: 412px;
+    }
+    .team-txt {
+      width: 350px;
     }
 }
 @media(max-width:500px) {
@@ -538,6 +782,9 @@
     .el-4 {
         top: 152%;
       }
+      .el-7{
+        left: -30%;
+      }
     .purpose{   
          margin-right: 30px;
         }
@@ -547,6 +794,9 @@
       }
       .sending-form .title {
         width: 258px;
+      }
+      .head-logo {
+        font-size: 100px;
       }
 }
 @media(max-width:470px) {
@@ -590,12 +840,45 @@
           .large-btn{
             height: 60px;
           }
+          .swiper-title {
+            font-size: 24px;
+          }
+          .swiper-txt{
+            width: 200px;
+          }
+            .card-sm-w {
+            width: 243.3px !important;
+          }
+          .values-swiper {
+            padding-left: 2px;
+          } 
+          
+          .sw-btn-bottom-prew {
+            left: 40%;
+          }
+          .sw-btn-bottom-next {
+            right: 0%;
+          }
+          .card-midle-w{
+            margin-left: 12px;
+          }
+          .card-number-l {
+            right: 69px;
+            top: -56px;
+          }
+          .values-swiper {
+            height: 583px;
+          }
           
 }
 @media(max-width:450px) {
     .container{
         max-width: 400px;
     }
+    .el-5{
+      width: 200px;
+    }
+    
 }
 @media(max-width:400px) {
     .container{
@@ -633,6 +916,24 @@
         margin-left: 20px;
         margin-right: 20px;
       }
+      .head-logo {
+        font-size: 86px;
+      }
+      .values-slide{
+        padding-left: 20px;
+        padding-right: 0px;
+      }
+      .card-number-l {
+        right: -44px;
+        top: -56px;
+      }
+      .card-midle-w{
+        margin-top: 0px;
+      }
+      .card-number-m {
+        top: -65px;
+      }
+  
 }
 @media(max-width:370px) {
     .hero-p{
@@ -643,6 +944,16 @@
     }
     .large-btn {
         width: 323px;
+    }
+    .head-logo{
+      font-size: 80px;
+      margin-left: 72px;
+    }
+    .team{
+      padding-top: 111px;
+    }
+    .values-swiper {
+      height: 522px;
     }
 }
 @media(max-width:360px) {
@@ -689,3 +1000,4 @@
         top: 115%;
       }
 }
+
