@@ -18,20 +18,7 @@
         line-height: 119.615%; /* 415.066px */
         letter-spacing: 46.845px;
     }
-/* Swiper */
-    .swiper {
-        width: 90%;
-        height: 163px;
-        padding-top: 35px;
-        margin: 0px;
-    }
-    .swiper-wrapper{
-        margin-left: 100px;
-    }
-    .swiper-slide {
-        width: 350px !important;
-        padding: 50px 25px;
-    }
+
     .large-btn {
         width: 350px;
         height: 75px;
@@ -45,18 +32,14 @@
         position: absolute;
         right: 20%;
       }
-      .values-swiper{
-        height: 686px;
-        }
+  
 
 }
 @media(max-width:1850px) {
     .container{
         max-width: 1850px;
     }
-    .swiper-wrapper{
-        margin-left: 76px;
-    }
+
     .team-txt {
       width: 1521px;
     }
@@ -65,59 +48,19 @@
     .container{
         max-width: 1800px;
     }
-    .swiper {
-        width: 100%;
-    }
-    .swiper-wrapper{
-        margin-left: 130px;
-    }
+
 }
 @media(max-width:1700px){
     .container{
         max-width: 1700px;
     }
-    .swiper-wrapper{
-        margin-left: 210px;
-    }
-    .swiper-slide{
-        font-size: 18px;
-    }
-    .large-btn{
-        right: 11%;
-    }
-    .swiper-txt{
-      width: 329px;
-      font-size: 24px;
-    }
-    .card-large-w {
-      width: 461px;
-      margin-left: 0px;
-      padding-right: 76px;
-    }
-    .card-small-w{
-      padding-top: 14px;
-    }
-    .swiper-title{
-      font-size: 40px;
-    }
-    .card-midle-w {
-      /* padding-right: 81px; */
-      margin-left: 74px;
-      /* margin-top: 70px; */
-    }
+ 
 }
 @media(max-width:1650px){
     .container{
         max-width: 1650px;
     }
-     /* swiper */
-     .swiper-wrapper{
-        margin-left: 336px;
-            }
-    .swiper-slide {
-        width: 310px !important;
-        padding: 40px 15px;
-      }
+    
 }
 @media(max-width:1600px){
     .container{
@@ -129,9 +72,7 @@
     .team-txt {
       width: 963px;
     }
-    .values-swiper{
-      height: 686px;
-      }
+ 
  /* Hero */
 
  .hero-title{
@@ -148,43 +89,11 @@
         width: 626px;
       font-size: 35px;
     }
-    /* swiper */
-    /* .swiper {
-        width: 90%;
-    } */
-    .swiper-wrapper{
-        margin-left: 438px;
-    }
-    .swiper-slide {
-        width: 310px !important;
-        padding: 40px 15px;
-    }
+   
     .large-btn {
         right: 2%;
       }
-      .swiper-title {
-        font-size: 34px;
-      }
-      .values-swiper{
-          margin-left:100px;
-          padding-left: 60px;
-      }
-      /* .values-slide{
-        margin: 0px;
-        padding: 0px;
-      } */
-      .card-small-w{
-        padding-top: 7px;
-      }
-      .card-large-w{
-        padding-right: 63px;
-      }
-      .sw-btn-bottom-prew {
-        left: 42%;
-      }
-      .sw-btn-bottom-next {
-        right: 43%;
-      }
+    
       .txt {
         font-size: 25px;
       }
@@ -196,10 +105,7 @@
     .el-4{
         height: 799px;
     }
-    .values-swiper {
-      margin-left: 50px;
-      padding-left: 60px;
-    }
+    
 }
 @media(max-width:1500px) {
     .container{
@@ -219,16 +125,7 @@
     .el-6 {
       width: 867px;
     }
-    .sw-btn-bottom-prew {
-      left: 41%;
-    }
-    .sw-btn-bottom-next {
-      right: 44%;
-    }
-    .values-swiper {
-      margin-left: 0px;
-      padding-left: 40px;
-    }
+ 
 }
 @media(max-width:1450px) {
     .container{
@@ -288,24 +185,7 @@
         width: 1296px;
         top:0%
       }
-      .swiper-slide {
-        width: 280px !important;
-        /* padding: 40px 15px; */
-      }
-      .card-number{
-        top: -84px;
-      }
-      .card-number-m {
-        top: -153px;
-        }
-      .card-number-l {
-        top: -94px;
-        right: -22px;
-      }
-      .card-large-w{
-        margin-left: 40px;
-        margin-right: 123px;
-      }
+     
 }
 @media(max-width:1350px) {
     .container{
@@ -316,24 +196,7 @@
     .container{
         max-width: 1300px;
     }
-    .btn-sm {
-        margin-right: 0px;
-      }
-    .large-btn{
-        margin-right: 0px;
-    }
-    .sw-btn-bottom-prew {
-      left: 45%;
-    }
-    .sw-btn-bottom-next {
-      right: 36%;
-    }
-    .card-number-l {
-      right: -4px;
-    }
-    .swiper-slide{
-      opacity: 1;
-    }
+  
 }
 @media(max-width:1250px) {
     .container{
@@ -369,19 +232,7 @@
         padding-top: 191px;
         padding-bottom: 207px;
       }
-      .swiper-slide-active{
-        opacity: 0;
-      }
-      .card-large-w{
-        padding-right: 97px;
-        padding-left: 0px;
-      }
-      .card-number-l {
-        right: 10px;
-      }
-      .values-swiper {
-        padding-left: 0px;
-      }
+    
 }
 @media(max-width:1150px) {
     .container{
@@ -393,24 +244,7 @@
       .el-4 {
         height: 401px;
     }
-    .sw-btn-bottom-prew {
-      left: 30%;
-    }
-    .sw-btn-bottom-next {
-      right: 50%;
-    }
-    .swiper-slide{
-      opacity: 0;
-    }
-    .swiper-slide-active,.swiper-slide-next {
-      opacity: 1;
-    }
-    .values-swiper {
-      padding-left: 188px;
-      
-      margin-left: -193px;
-    }
-
+  
   }
   @media(max-width:1100px) {
     .container{
@@ -441,23 +275,7 @@
       .sending-form .title {
         width: 863px;
       }
-      .sw-btn-bottom-prew {
-        left: 30%;
-      }
-      .sw-btn-bottom-next {
-        right: 50%;
-      }
-      .swiper-slide{
-        opacity: 0;
-      }
-      .swiper-slide-prev,.swiper-slide-active {
-        opacity: 1;
-      }
-      .values-swiper {
-        padding-left: 0px;
-        padding-left: 229px;
-        margin-left: 0px;
-      }
+      
 }
 @media(max-width:950px) {
     .container{
@@ -508,9 +326,7 @@
     .footer-title {
         font-size: 49px;
       }
-      .values-swiper{
-        padding-left: 181px;
-      }
+  
 }
 @media(max-width:900px) {
     .container{
@@ -522,18 +338,7 @@
       .hero-title {
         font-size: 136px;
       }
-      .values-swiper {
-        padding-left: 160px;
-      }
-      .card-sm-w {
-        width: 345.3px !important;
-      }
-      .sw-btn-bottom-prew {
-        left: 34%;
-      }
-      .sw-btn-bottom-next {
-        right: 40%;
-      }
+    
 }
 @media(max-width:850px) {
     .container{
@@ -575,12 +380,6 @@
     }
     .values-title {
       padding-right: 0px;
-    }
-    .swiper-slide{
-      opacity: 1;
-    }
-    .values-swiper{
-      padding-left: 187px;
     }
    
 }
@@ -631,31 +430,6 @@
         letter-spacing: -4.5px;
         margin-left: 55px
             }
-      .swiper-title {
-        font-size: 30px;
-      }
-      .values-swiper {
-        height: 689px;
-      }
-      /* .values-slide{
-        padding-right: 0px;
-        padding-left: 0px;
-        padding-bottom: 0px;
-        padding-top: 0px;
-      } */
-      .swiper-title-40 {
-        /* font-size: 40px; */
-        margin-top: -193px;
-            }
-      .card-number-l {
-        right: -39px;
-      }
-      .sw-btn-bottom-prew {
-        left: 32%;
-      }
-      .sw-btn-bottom-next {
-        right: 40%;
-      }
 }
 @media(max-width:650px) {
     .container{
@@ -716,15 +490,7 @@
           padding-top: 43px;
           width: 450px;
         }
-        .sw-btn-bottom-prew {
-          left: 31%;
-        }
-        .sw-btn-bottom-next {
-          right: 31%;
-        }
-        .values-swiper {
-            padding-left: 91px;
-        }
+      
 }
 @media(max-width:550px) {
     .container{
@@ -840,35 +606,7 @@
           .large-btn{
             height: 60px;
           }
-          .swiper-title {
-            font-size: 24px;
-          }
-          .swiper-txt{
-            width: 200px;
-          }
-            .card-sm-w {
-            width: 243.3px !important;
-          }
-          .values-swiper {
-            padding-left: 2px;
-          } 
-          
-          .sw-btn-bottom-prew {
-            left: 40%;
-          }
-          .sw-btn-bottom-next {
-            right: 0%;
-          }
-          .card-midle-w{
-            margin-left: 12px;
-          }
-          .card-number-l {
-            right: 69px;
-            top: -56px;
-          }
-          .values-swiper {
-            height: 583px;
-          }
+        
           
 }
 @media(max-width:450px) {
@@ -919,21 +657,7 @@
       .head-logo {
         font-size: 86px;
       }
-      .values-slide{
-        padding-left: 20px;
-        padding-right: 0px;
-      }
-      .card-number-l {
-        right: -44px;
-        top: -56px;
-      }
-      .card-midle-w{
-        margin-top: 0px;
-      }
-      .card-number-m {
-        top: -65px;
-      }
-  
+   
 }
 @media(max-width:370px) {
     .hero-p{
@@ -952,9 +676,7 @@
     .team{
       padding-top: 111px;
     }
-    .values-swiper {
-      height: 522px;
-    }
+   
 }
 @media(max-width:360px) {
     .hero-p{

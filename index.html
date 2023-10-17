@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAVEPO</title>
 
-    <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
     
     
 
@@ -27,12 +32,12 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
-    <script defer src="/js/choices.min.js"></script>
+   
 
     <script defer src="/js/swiper.js"></script>
+    <script defer src="/js/choices.min.js"></script>
     <script defer src="/js/validate.js"></script>
+
 
 </head>
 <body>
@@ -130,29 +135,45 @@
                 <a href="https://pavepo-2.netlify.app/">Смотреть еще</a>
             </button>
         </div>
-        <div class="services container-padding">
+        <div class="services">
             <h2 class="title services-title">УСЛУГИ</h2>
-            <div class="swiper" id="swiper-mini">
-                <!-- Additional required wrapper -->
+            
+                <div class="swiper" id="swiper-mini">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="swiper-slide-card">Аудит бизнес-процессов</div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="swiper-slide-card">Разработка операционных процедур</div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="swiper-slide-card">Автоматизация процессов</div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="swiper-slide-card">Аудит бизнес-процессов</div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="swiper-slide-card">Разработка операционных процедур</div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="swiper-slide-card">Автоматизация процессов</div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="swiper-slide-card">Аудит бизнес-процессов</div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="swiper-slide-card">Разработка операционных процедур</div>
+                        </div>
+                        <div class="swiper-slide">
+                          <div class="swiper-slide-card">Автоматизация процессов</div>
+                        </div>
              
-                <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">Аудит бизнес-процессов</div>
-                <div class="swiper-slide">Разработка операционных процедур</div>
-                <div class="swiper-slide">Автоматизация процессов</div>
-
-                <!-- Блоки которые можно изменять -->
-
-                <div class="swiper-slide">Аудит бизнес-процессов</div>
-                <div class="swiper-slide">Разработка операционных процедур</div>
-                <div class="swiper-slide">Автоматизация процессов</div>
+                    <!-- If we need navigation buttons -->
                 </div>
-                
-            
-            
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>s
+                <div class="swiper-button-prev sw-btn-bottom sw-btn-bottom-prew" id="btn-prew"></div>
+                <div class="swiper-button-next sw-btn-bottom sw-btn-bottom-next" id="btn-next"></div>
+            </div>
             </div>
 
         </div>
