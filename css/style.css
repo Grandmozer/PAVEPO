@@ -255,12 +255,13 @@ svg{
     width: 100%;
 
     }
-    .swiper-slide {
+    /* .swiper-slide {
     text-align: center;
     font-size: 18px;
-    }
+    } */
     .swiper-background {
         display: flex;
+        text-align: center;
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
@@ -490,4 +491,55 @@ svg{
 .values-title{
     padding-right: 106px;
     justify-self: flex-end;
+}
+
+
+/* 2 page */
+.swiper-slide{
+    opacity: 0;
+}
+.swiper-slide-prev,.swiper-slide-active,.swiper-slide-next{
+    opacity: 1;
+} 
+.swiper-title{
+    margin: 0px;
+    font-family: 'Inter',sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    color:var(--white);
+}
+.swiper-txt{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #EEEEEE;
+}
+.card-number{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: 'TT Firs Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: var(--swiper-num);
+}
+.swiper-values{
+    top: var(--swiper-navigation-top-offset,105%);
+}
+.values-slide{
+    height: 485px;
+}
+.sw-btn-bottom-right{
+    left: 44%;
+}
+.sw-btn-bottom-left{
+    right: 44%;
 }

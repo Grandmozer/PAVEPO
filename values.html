@@ -6,6 +6,7 @@
     <title>PAVEPO</title>
 
     <!-- Свайпер -->
+
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
@@ -13,12 +14,7 @@
   
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-    <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper/swiper-bundle.min.css"
-  />
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
+  
     <!-- Шрифты -->
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +28,11 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/media.css">
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
     <script defer src="/js/swiper-2.js"></script>
+    <script defer src="/js/choices.min.js"></script>
+    <script defer src="/js/validate.js"></script>
 </head>
 <body>
     <header class="header">
@@ -93,63 +93,79 @@
     <div class="values">
         <h2 class="title team-title ta-right values-title">ЦЕННОСТИ</h2>
 
-        <div class="swiper values-swiper" id="swiper-midle">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper values-swiper">
-            <!-- Slides -->
-            <div class="swiper-slide values-slide card-small-w">
-                <div class="card-wiper">
+    <div class="swiper values-slide"  id="swiper-midle">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper ">
+            <div class="swiper-slide values-slide">
+              <div class="card-wiper">
                     <h3 class="swiper-title ta-left">Надежность</h3>
                     <p class="txt ta-left swiper-txt card-sm-w">Уважение и признание точек зрения друг друга, помогает достигать тех целей, которые мы ставим</p>
                     <span class="card-number">01</span>
                 </div>
             </div>
-            <div class="swiper-slide values-slide card-midle-w">
-                <div class="card-wiper">
+            <div class="swiper-slide values-slide">
+              <div class="card-wiper">
                     <h3 class="swiper-title ta-left">Результат</h3>
-                    <p class="txt ta-left swiper-txt card-m-w">Не бояться искать новые формы и способы создания уникальных продуктов.<br> Быть гибкими, отзывчивыми и преуспевать в решении проблем, которые могут показаться непреодолимыми.</p>
-                    <span class="card-number card-number-m">02</span>
+                    <p class="txt ta-left swiper-txt card-sm-w">Не бояться искать новые формы и способы создания уникальных продуктов.<br> Быть гибкими, отзывчивыми и преуспевать в решении проблем, которые могут показаться непреодолимыми.</p>
+                    <span class="card-number">02</span>
                 </div>
             </div>
-            <div class="swiper-slide values-slide card-large-w">
-                <div class="card-wiper">
-                <h3 class="swiper-title ta-left swiper-title-40">Инновационность</h3>
-                    <p class="txt ta-left swiper-txt card-l-w">В поисках новых идей идти туда, куда не пойдут другие.</p>
-                    <span class="card-number card-number-l">03</span>
-                    </div>
+            <div class="swiper-slide values-slide">
+              <div class="card-wiper">
+                    <h3 class="swiper-title ta-left">Инновационность</h3>
+                    <p class="txt ta-left swiper-txt card-sm-w">В поисках новых идей идти туда, куда не пойдут другие.</p>
+                    <span class="card-number">03</span>
+                </div>
             </div>
-
-            <!-- Слайды которые можно изменить в дальнейшем -->
-            <div class="swiper-slide values-slide card-small-w">
-                <div class="card-wiper">
+            <div class="swiper-slide values-slide">
+              <div class="card-wiper">
                     <h3 class="swiper-title ta-left">Надежность</h3>
                     <p class="txt ta-left swiper-txt card-sm-w">Уважение и признание точек зрения друг друга, помогает достигать тех целей, которые мы ставим</p>
                     <span class="card-number">01</span>
                 </div>
             </div>
-            <div class="swiper-slide values-slide card-midle-w">
-                <div class="card-wiper">
+            <div class="swiper-slide values-slide">
+              <div class="card-wiper">
                     <h3 class="swiper-title ta-left">Результат</h3>
-                    <p class="txt ta-left swiper-txt card-m-w">Не бояться искать новые формы и способы создания уникальных продуктов.<br> Быть гибкими, отзывчивыми и преуспевать в решении проблем, которые могут показаться непреодолимыми.</p>
-                    <span class="card-number card-number-m">02</span>
+                    <p class="txt ta-left swiper-txt card-sm-w">Не бояться искать новые формы и способы создания уникальных продуктов.<br> Быть гибкими, отзывчивыми и преуспевать в решении проблем, которые могут показаться непреодолимыми.</p>
+                    <span class="card-number">02</span>
                 </div>
             </div>
-            <div class="swiper-slide values-slide card-large-w">
-                <div class="card-wiper">
-                <h3 class="swiper-title ta-left swiper-title-40">Инновационность</h3>
-                    <p class="txt ta-left swiper-txt card-l-w">В поисках новых идей идти туда, куда не пойдут другие.</p>
-                    <span class="card-number card-number-l">03</span>
-                    </div>
+            <div class="swiper-slide values-slide">
+              <div class="card-wiper">
+                    <h3 class="swiper-title ta-left">Инновационность</h3>
+                    <p class="txt ta-left swiper-txt card-sm-w">В поисках новых идей идти туда, куда не пойдут другие.</p>
+                    <span class="card-number">03</span>
+                </div>
             </div>
-
+            <div class="swiper-slide values-slide">
+              <div class="card-wiper">
+                    <h3 class="swiper-title ta-left">Надежность</h3>
+                    <p class="txt ta-left swiper-txt card-sm-w">Уважение и признание точек зрения друг друга, помогает достигать тех целей, которые мы ставим</p>
+                    <span class="card-number">01</span>
+                </div>
             </div>
-        
-        
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev sw-btn-bottom sw-btn-bottom-prew"></div>
-            <div class="swiper-button-next sw-btn-bottom sw-btn-bottom-next"></div>
+            <div class="swiper-slide values-slide">
+              <div class="card-wiper">
+                    <h3 class="swiper-title ta-left">Результат</h3>
+                    <p class="txt ta-left swiper-txt card-sm-w">Не бояться искать новые формы и способы создания уникальных продуктов.<br> Быть гибкими, отзывчивыми и преуспевать в решении проблем, которые могут показаться непреодолимыми.</p>
+                    <span class="card-number">02</span>
+                </div>
+            </div>
+            <div class="swiper-slide values-slide">
+              <div class="card-wiper">
+                    <h3 class="swiper-title ta-left">Инновационность</h3>
+                    <p class="txt ta-left swiper-txt card-sm-w">В поисках новых идей идти туда, куда не пойдут другие.</p>
+                    <span class="card-number">03</span>
+                </div>
+            </div>
         </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev sw-btn-bottom sw-btn-bottom-prew swiper-values sw-btn-bottom-right" id="btn-prew"></div>
+        <div class="swiper-button-next sw-btn-bottom sw-btn-bottom-next swiper-values sw-btn-bottom-left" id="btn-next"></div>
     </div>
+</div>
     <div class="sending-form container-padding">
         <h2 class="title">ОСТАВИТЬ ЗАЯВКУ</h2>
 

@@ -378,9 +378,7 @@
     .team-txt {
       width: 475px;
     }
-    .values-title {
-      padding-right: 0px;
-    }
+
    
 }
 @media(max-width:750px) {
@@ -508,9 +506,6 @@
     .team-title {
       width: 270px;
       margin-right: 40px;
-    }
-    .values {
-      height: 620px;
     }
     .el-7 {
       width: 412px;
@@ -723,6 +718,10 @@
       }
 }
 
+
+
+
+
 @media (max-width:1028px) {
     .sw-btn-bottom{
         top: var(--swiper-navigation-top-offset,135%);
@@ -769,5 +768,59 @@
     .sw-btn-bottom-next{
         margin-right: -30px;
         right: 33%;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:1500px) {
+  .swiper-title{
+      font-size: 32px; 
+  }
+}
+@media (max-width:1250px) {
+  .swiper-title{
+      font-size: 28px; 
+      line-height: 30px;
+  }
+  .swiper-txt{
+      line-height: 32px;
+  }
+  .sw-btn-bottom-right{
+      left: 40%;
+  }
+  .sw-btn-bottom-left{
+      right: 40%;
+  }
+}
+@media (max-width:1020px){
+  .values-slide {
+      height: 328px;
+    }
+}
+@media (max-width:1000px){
+  .values-slide {
+      height: 260px;
+    }
+}
+@media (max-width:480px) {
+  .values-slide {
+      height: 220px;
+  }
+  .card-number{
+  font-size: 26px;
+  line-height: 24px;
+  }
+  .swiper-title{
+      font-size: 26px; 
+  }
+}
+@media (max-width:360px) {
+  .swiper-title {
+      font-size: 23px;
     }
 }
