@@ -19,7 +19,6 @@
     --swiper-num:#562267;
 }
 body {
-    max-width: 1920px;
     font-family: 'Inter', sans-serif;
     background-color: var(--background-color);
 }
@@ -46,7 +45,7 @@ a {
 }
 .container{
     width: 1920px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .container-padding{
     padding-left: 92px;
@@ -239,14 +238,18 @@ svg{
 /* swiper */
 .swiper {
     width: 100%;
-    height: 160px;
-    margin: 0 -4rem;
+    height: 560px;
+    margin: 0 0;
+    overflow: hidden;
   }
-
+.values-wrapper{
+    max-width: 1000px;
+    min-width: 350px;
+}
   .container{
-    margin: 0 auto;
-    height: 100%;
-    padding: 0 4em;
+    /* margin: 0 auto; */
+    /* height: 100%; */
+    /* padding: 0 4em; */
     overflow: hidden;
     }
     .slider-wrap {
@@ -311,6 +314,15 @@ svg{
     .swiper-slide-card{
         padding: 0px 10px;
     }
+    .clear:after {
+        content: '.';
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+
+
 /* sending-form */
 
 .sending-form{
@@ -490,6 +502,7 @@ svg{
 }
 .values-title{
     padding-right: 106px;
+    padding-bottom: 87px;
     justify-self: flex-end;
 }
 
@@ -503,6 +516,7 @@ svg{
 } 
 .swiper-title{
     margin: 0px;
+    padding-bottom: 47px;
     font-family: 'Inter',sans-serif;
     font-size: 38px;
     font-weight: 700;
@@ -532,10 +546,11 @@ svg{
     color: var(--swiper-num);
 }
 .swiper-values{
-    top: var(--swiper-navigation-top-offset,105%);
+    top: var(--swiper-navigation-top-offset,88%);
 }
 .values-slide{
     height: 485px;
+    overflow: hidden;
 }
 .sw-btn-bottom-right{
     left: 44%;

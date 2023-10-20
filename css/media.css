@@ -1,3 +1,4 @@
+
 @media(max-width:1900px){
     .container{
         max-width: 1900px;
@@ -318,7 +319,7 @@
       }
       .large-btn{
         margin-top: 697px;
-        right: 50%;
+        right: 15%;
       }
     .footer{
         margin-right: 55px;
@@ -386,7 +387,7 @@
         max-width: 650px;
       }
     .large-btn {
-        right: 39%;
+        right: 10%;
       }
       .container-padding{
           padding-left: 50px;
@@ -427,6 +428,9 @@
         font-size: 120px;
         letter-spacing: -4.5px;
         margin-left: 55px
+            }
+            .team-title {
+              width: 287px;
             }
 }
 @media(max-width:650px) {
@@ -506,6 +510,7 @@
     .team-title {
       width: 270px;
       margin-right: 40px;
+      padding-right: 0px;
     }
     .el-7 {
       width: 412px;
@@ -513,6 +518,7 @@
     .team-txt {
       width: 350px;
     }
+    
 }
 @media(max-width:500px) {
     .container{
@@ -724,7 +730,7 @@
 
 @media (max-width:1028px) {
     .sw-btn-bottom{
-        top: var(--swiper-navigation-top-offset,135%);
+      top: var(--swiper-navigation-top-offset,78%);
         /* left: 42%;    */
     }
     .sw-btn-bottom-prew{
@@ -732,6 +738,9 @@
     }
     .sw-btn-bottom-next{
         right: 38%;
+    }
+    .values-wrapper{
+      max-width: 500px;
     }
 }
 @media (max-width:768px) {
@@ -799,17 +808,23 @@
 }
 @media (max-width:1020px){
   .values-slide {
-      height: 328px;
-    }
+    height: 599px;
+  }
 }
 @media (max-width:1000px){
   .values-slide {
-      height: 260px;
-    }
+    height: 472px;
+  }
+  .sw-btn-bottom {
+    top: var(--swiper-navigation-top-offset,89%);
+  }
 }
 @media (max-width:480px) {
   .values-slide {
-      height: 220px;
+    height: 521px;
+  }
+  .sw-btn-bottom {
+    top: var(--swiper-navigation-top-offset,65%);
   }
   .card-number{
   font-size: 26px;
