@@ -150,9 +150,10 @@ svg{
 .el-4{
     width: 789px;
     height: 943px;
+    top: 2261px;
     /* top: 2261px;
     right: 0px; */
-    top: 180%;
+    /* top: 328%; */
     right: 0%;
     overflow: hidden;
 }
@@ -560,4 +561,7 @@ svg{
 }
 .sw-btn-bottom-left{
     right: 44%;
+}
+.services-slider{
+    height: 160px;
 }
