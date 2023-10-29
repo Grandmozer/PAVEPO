@@ -251,6 +251,9 @@ svg{
     max-width: 1000px;
     min-width: 350px;
 }
+.card-wiper{
+    margin: 0px 40px;
+}
   .container{
     /* margin: 0 auto; */
     /* height: 100%; */
@@ -529,6 +532,9 @@ svg{
     letter-spacing: 0.015em;
     color:var(--white);
 }
+.swiper-long-title{
+    font-size: 38px;
+}
 .swiper-txt{
     font-family: 'TT Firs Neue', sans-serif;
     font-size: 32px;
@@ -540,7 +546,7 @@ svg{
 }
 .card-number{
     position: absolute;
-    right: 0;
+    right: 20px;
     top: 0;
     font-family: 'TT Firs Neue', sans-serif;
     font-size: 30px;

@@ -48,7 +48,7 @@ const swiper1 = new Swiper(swiperSmall, {
     direction: 'horizontal',
     slidesPerView: 5,
     centeredSlides: true,
-    spaceBetween: 100,
+    spaceBetween: 80,
     loop: true,
     loopedSlides: 7,
     watchSlidesVisibility: true,
@@ -67,7 +67,7 @@ const swiper1 = new Swiper(swiperSmall, {
   
           1700: {
             slidesPerView:3,
-            spaceBetween: 100,
+            spaceBetween: 80,
           },
           1200: {
             slidesPerView:3,
