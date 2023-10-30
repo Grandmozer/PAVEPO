@@ -89,13 +89,17 @@ const swiper1 = new Swiper(swiperSmall, {
             slidesPerView:1,
             spaceBetween: 60,
           },
+          400:{
+            slidesPerView:1,
+            spaceBetween: 20,
+          },
           300:{
             slidesPerView:1,
             spaceBetween: 10,
           },
           250:{
             slidesPerView:1,
-            spaceBetween: 60,
+            spaceBetween: 10,
           }
       }
   });

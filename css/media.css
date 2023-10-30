@@ -481,7 +481,8 @@
         width: 500px;
       }
       .btn-sm{
-        margin-left: -52px;
+        /* margin-left: -52px; */
+        margin-left: -21px;
         margin-top: 102px;
       }
       .el-3 {
@@ -634,7 +635,7 @@
         width: 337px;
       }
       .btn-sm{
-        margin-left: 26px;
+        margin-left: -9px;
           }
           .large-btn{
             height: 60px;
@@ -646,6 +647,9 @@
     .container{
         max-width: 400px;
     }
+  .swiper{
+    width: 96%;
+  }
     .el-5 {
       width: 371px;
       left: -30%;
@@ -660,6 +664,9 @@
     }
     .container-padding {
         padding-left: 26px;
+      }
+      .swiper{
+        width: 96%;
       }
     .hero-title{
         font-size: 66px;
@@ -695,6 +702,59 @@
       }
    
 }
+@media(max-width:393px){
+  .container{
+    max-width: 392px;
+  }
+  .swiper{
+    width: 98%;
+  }
+  .swiper-background{
+    margin-left: -1px;
+  }
+  .swiper-slide-prev,.swiper-slide-next{
+    opacity: 0;
+} 
+  .swiper-slide-active{
+    opacity: 1;
+  } 
+  .hero-p {
+    margin-right: 28px;
+  }
+  /* .sw-btn-bottom-next {
+    margin-right: -36px;
+    right: 25%;
+}
+  .sw-btn-bottom-left {
+    right: 35%;
+  } */
+}
+@media(max-width:376px){
+  .container{
+    max-width: 375px;
+  }
+  .swiper{
+    width: 98%;
+  }
+  .swiper-background{
+    margin-left: -1px;
+  }
+  .swiper-slide-prev,.swiper-slide-next{
+    opacity: 0;
+} 
+  .swiper-slide-active{
+    opacity: 1;
+  } 
+  .hero-p {
+    margin-right: 13px;
+  }
+  .large-btn{
+    right: 3%;   
+  }
+  .input-form {
+    width: 323px;
+  }
+}
 @media(max-width:370px) {
     .hero-p{
         margin-right: 12px;
@@ -711,6 +771,9 @@
     }
     .team{
       padding-top: 111px;
+    }
+    .swiper{
+      width: 94%;
     }
    
 }
@@ -731,7 +794,10 @@
 }
 @media(max-width:350px) {
     .container{
-        max-width: 300px;
+        max-width: 350px;
+    }
+    .swiper{
+      width: 96%;
     }
     .txt {
         font-size: 13px;
@@ -804,13 +870,13 @@
     }
     .sw-btn-bottom-next{
         margin-right: -20px;
-        right: 33%;
+        right: 25%;
     }
 }
 @media (max-width:390px) {
     .sw-btn-bottom-prew{
         margin-left: -30px;
-        left: 33%;
+        left: 41%;
     }
     .sw-btn-bottom-next{
         margin-right: -30px;
