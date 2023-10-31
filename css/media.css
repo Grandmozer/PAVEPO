@@ -38,7 +38,7 @@
 }
 @media(max-width:1850px) {
     .container{
-        max-width: 1850px;
+        max-width: 1800px;
     }
 
     .team-txt {
@@ -49,19 +49,21 @@
     .container{
         max-width: 1800px;
     }
-
+}
+@media(max-width:1750px){
+  .container{
+    max-width: 1750px;
+}
 }
 @media(max-width:1700px){
     .container{
         max-width: 1700px;
     }
- 
 }
 @media(max-width:1650px){
     .container{
         max-width: 1650px;
     }
-    
 }
 @media(max-width:1600px){
     .container{
@@ -271,9 +273,20 @@
     }
 
 }
+@media(max-width: 1024px){
+  .purpose{
+    padding-right: 113px;
+  }
+  .large-btn {
+    right: 4%;
+}
+}
 @media(max-width:1000px) {
     .container{
         max-width: 1000px;
+    }
+    .purpose{
+      padding-right: 50px;
     }
     .large-btn {
         right: 10%;
@@ -658,6 +671,11 @@
       display: none;
     }
 }
+@media(max-width:425px){
+  .sw-btn-bottom-next {
+    margin-right: -35px
+  }
+}
 @media(max-width:400px) {
     .container{
         max-width: 360px;
@@ -756,9 +774,12 @@
   }
 }
 @media(max-width:370px) {
-    .hero-p{
-        margin-right: 12px;
-    }
+  .hero-p {
+    margin-right: 30px;
+}
+.swiper {
+  width: 95%;
+}
     .input-form {
         width: 309px;
     }
@@ -778,10 +799,13 @@
    
 }
 @media(max-width:360px) {
-    .hero-p{
-        margin-right: 12px;
-        width: 300px;
-    }
+  .swiper {
+    width: 91%;
+}
+.hero-p {
+  margin-right: 34px;
+  width: 300px;
+}
     .el-4 {
         top: 122%;
       }
@@ -805,10 +829,10 @@
     .hero-title {
         font-size: 56px;
       }
-      .hero-p{
-        margin-right: 0px;  
+      .hero-p {
+        margin-right: 36px;
         font-size: 14px;
-      }
+    }
       .purpose .ta-left {
         width: 245px;
       }
@@ -824,7 +848,11 @@
         top: 115%;
       }
 }
-
+@media(max-width:340px){
+  .swiper {
+    width: 94%;
+}
+}
 
 
 

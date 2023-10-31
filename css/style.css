@@ -18,9 +18,20 @@
     --footer-h2:linear-gradient(91deg, #FF7C38 21.27%, #751A69 79.5%);
     --swiper-num:#562267;
 }
+/* * {
+    outline: 1px solid red;
+    } */
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--background-color);
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 h1{
     margin: 0;
